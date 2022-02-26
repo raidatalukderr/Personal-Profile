@@ -1,0 +1,369 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+body{
+    margin: 0;
+}
+
+h1{
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+h2{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+a{
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+p{
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+
+[class*="col-"]{
+    float: left;
+    padding: 10px;
+}
+
+/* for mobile  */
+[class*="col-"]{
+    width: 100%;
+}
+
+
+/* navbar design starts here  */
+
+.navbar{
+    
+    background-color: rgba(38, 177, 84, 0.5);
+    padding: 1% 5%;
+    text-align: center;
+    
+
+}
+
+.navbar h1{
+    color: rgb(20, 18, 18);
+    margin: 0;
+    padding-top: 10px;
+    
+}
+
+.navbar-menu{
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    
+}
+
+.navbar-menu a{
+    background-color: #3c9448;
+    border-radius: 10px;
+    margin: 7px 0px;
+    padding: 10px;
+}
+
+.navbar-menu a:hover{
+    background-color: rgb(158, 85, 85);
+}
+.nav-logo img{
+    border: 5px solid white;
+    border-radius: 50%;
+    height: 130px;
+    width: 100px;
+}
+.nav-logo-image img{
+    border: 5;
+
+}
+
+.navbar::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* navbar design ends here  */
+
+
+
+/* profile design starts from here  */
+
+.profile{
+    padding: 130px 10px;
+    position: relative;
+    text-align: center;
+    background-color: white;
+}
+
+.profile .top-emoji-icon{
+    position: absolute;
+    right: 260px;
+    width: 200px;
+    top: 20px;
+    
+}
+
+
+.profile-desc h1{
+    font-family: 'Satisfy', cursive;
+    font-size: 3rem;
+}
+
+.profile-desc p{
+    color: rgb(116, 20, 52);
+    margin: 0 auto 20px auto;
+    text-align: center;
+    width: 90%;
+}
+
+
+
+.profile::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+
+/* profile design ends here  */
+
+
+/* about me design starts here  */
+
+
+.about-me{
+    background-color: #2f7249;
+    padding: 1% 7%;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.aboutme-image img{
+    border: 5px solid white;
+    border-radius: 40%;
+    height: 280px;
+    width: 280px;
+}
+
+.about-me p{
+    text-align: center;
+}
+
+.about-me a{
+    font-size: 1.2rem;
+}
+
+.about-me::after{
+    clear: both;
+    display: table;
+    content: '';
+}
+
+/* about me design ends here  */
+
+
+
+
+/*career objectives starts here  */
+.career-objectives{
+    background-color: #84d884;
+    padding: 1% 7%;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.careerobjectives-image img{
+    border: 5px solid white;
+    border-radius: 50%;
+    height: 280px;
+    width: 280px;
+}
+
+.career-objectives p{
+    text-align: center;
+}
+
+.career-objectives a{
+    font-size: 1.2rem;
+}
+
+
+
+
+.career-objectives::after{
+    clear: both;
+    display: table;
+    content: '';
+}
+/*career objectives end here  */
+
+
+
+
+/*working experience starts here  */
+.working-experience{
+    background-color: #b2ca27;
+    padding: 1% 7%;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.workingexperience-image img{
+    border: 5px solid white;
+    border-radius: 50%;
+    height: 280px;
+    width: 280px;
+}
+
+.working-experience p{
+    text-align: center;
+}
+
+.working-experience a{
+    font-size: 1.2rem;
+}
+
+.working-experience::after{
+    clear: both;
+    display: table;
+    content: '';
+}
+/*working experience ends here  */
+
+
+
+/*skills start here */
+.skills{
+    background-color: #e7ba3e;
+    padding: 1% 7%;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.skills-image img{
+    border: 5px solid white;
+    border-radius: 50%;
+    height: 280px;
+    width: 280px;
+}
+
+.skills p{
+    text-align: center;
+}
+
+.skills a{
+    font-size: 1.2rem;
+}
+
+
+
+
+.skills::after{
+    clear: both;
+    display: table;
+    content: '';
+}
+/*skills end here*/
+
+
+
+/* achievement-contact starts from here  */
+.achievemnet-contact{
+    padding: 1% 7%;
+    background-color: #53492b;
+    color: white;
+}
+
+.contact{
+    text-align: center;
+}
+
+.contact input, textarea{
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    resize: none;
+}
+
+.contact button{
+    border: none;
+    border-radius: 12px;
+    background-color: #052d2f;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    margin: 10px;
+    width: 100px;
+}
+
+
+.contact-links{
+    text-align: center;
+}
+
+.media-buttons .btn{
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 32px;
+    padding: 5px;
+    margin: 10px;
+    width: 50px;
+    background-color: white;
+}
+.btn:hover{
+    background-color: gray;
+}
+
+.achievemnet-contact::after{
+    clear: both;
+    display: table;
+    content: '';
+ }
+
+/* achievement-contact ends here  */
+
+/* footer starts from here  */
+.footer{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.8rem;
+
+}
+
+.footer-menu a{
+    display: block;
+    margin: 15px 0;
+    font-size: 1rem;
+}
+
+.footer-menu a:hover{
+    color: gray;
+}
+
+.footer::after{
+    display: table;
+    content: '';
+    clear: both;
+}
+
+
+/* footer ends here  */
